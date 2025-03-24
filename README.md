@@ -20,7 +20,7 @@
 #git push origin develop
 #git log --oneline --graph
 
-#3
+#4
 #git merge develop
 #git status
 #Editar manualmente index.php para resolver el conflicto.

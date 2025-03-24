@@ -20,6 +20,18 @@
 #git push origin develop
 #git log --oneline --graph
 
+#3
+#git flow feature start modificar-index
+#<?php
+#include "alumnos/tu_nombre.php";
+#?>
+#git diff
+#git add index.php
+#git commit -m "Incluido archivo PHP en index.php"
+#git push origin feature/modificar-index
+#git flow feature finish modificar-index
+#git push origin develop
+
 #4
 #git merge develop
 #git status
@@ -35,5 +47,15 @@
 #git add .
 #git commit -m "Eliminado archivo PHP de alumnos/"
 #git push origin feature/borrar-mi-archivo
+#git flow feature finish borrar-mi-archivo
+#git push origin develop
+
+#6
+#git flow release start v1.0
+#git flow release finish v1.0
+#git push origin main
+#git push origin develop
+#git tag -a v1.0 -m "Versión 1.0 estable"
+#git push origin v1.0
 
 

@@ -19,3 +19,12 @@
 #git flow feature finish crear-mi-archivo
 #git push origin develop
 #git log --oneline --graph
+
+#3
+#git merge develop
+#git status
+#Editar manualmente index.php para resolver el conflicto.
+#git add index.php
+#git commit -m "Resuelto conflicto en index.php"
+#git push origin develop
+

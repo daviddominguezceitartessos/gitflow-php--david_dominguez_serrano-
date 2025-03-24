@@ -31,7 +31,7 @@
 
 #5
 #git flow feature start borrar-mi-archivo
-#rm alumnos/tu_nombre.php
+#git rm -f alumnos/david_dominguez.php
 #git add .
 #git commit -m "Eliminado archivo PHP de alumnos/"
 #git push origin feature/borrar-mi-archivo
